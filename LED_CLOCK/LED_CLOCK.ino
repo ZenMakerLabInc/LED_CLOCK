@@ -92,8 +92,8 @@ void updateInputs(){
 
 void updateTime(){
   seconds = (half_seconds_irq / 2) % 60;
-  minutes = (half_seconds_irq / 120) + minutes_offset % 60;
-  hours = (half_seconds_irq / 7200) + hours_offset %12;
+  minutes = ((half_seconds_irq / 120) + (minutes_offset % 60))%60;
+  hours = ((half_seconds_irq / 7200) + (hours_offset %12))%12;
 }
 
 void updateStrip(){
