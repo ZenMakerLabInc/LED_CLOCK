@@ -90,10 +90,25 @@ void updateInputs(){
   }
 }
 
+/*
+  For the LED Clock, you will have to add 3 lines.
+  One for the seconds, minutes, and hours.
+  
+  ie. 
+  seconds = 3;
+  minutes = x;
+  hours = x * 3 / 70;
+
+  You'll have to calculate it based on the half_seconds_irq variable
+  which increases by 2 every second.  And you'll need to account for
+  the offset from the buttons for setting the time (hours_offset,
+  minutes_offset).
+*/
+
 void updateTime(){
-  seconds = (half_seconds_irq / 2) % 60;
-  minutes = ((half_seconds_irq / 120) + (minutes_offset % 60))%60;
-  hours = ((half_seconds_irq / 7200) + (hours_offset %12))%12;
+  /*Activity Starts Here*/
+
+  /*Activity Ends Here*/
 }
 
 void updateStrip(){
