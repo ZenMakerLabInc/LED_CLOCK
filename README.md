@@ -6,9 +6,6 @@ Design the functionality that you want and learn to program Arduino.
 Make your LED Clock using your kit components. 
 Play your own music the way you want to for family and friends.
 
-# Video Instruction
-https://youtu.be/LzjZOh6v2rk
-
 # Installation
 
 0) Install the Arduino IDE (or add the extension if on a chrome book)
@@ -16,6 +13,12 @@ https://youtu.be/LzjZOh6v2rk
 2) Extract file here...
 3) Add the FastLED Library.  a) Add it to your library folder; usually under \Documents\Arduino\libraries  b) If you are using chrome, go to create.arduino.cc, login, and import it to your libraries
 4) Open the LED_CLOCK folder and find the .ino file.  That is your code!
+
+# Instructions
+You can work through building the clock with this video!
+https://youtu.be/LzjZOh6v2rk
+Activities and programming instruction to completing the clock are here:
+https://github.com/ZenMakerLabInc/LED_CLOCK/blob/master/LED%20Clock%20Activity%20Sheet%20-%20Revision%201.1%20(1).pdf
 
 # Configuration
 When your code is ready to be uploaded, connect your arduino to your computer using a usb cable.
