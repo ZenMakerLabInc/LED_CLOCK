@@ -6,6 +6,10 @@ Design the functionality that you want and learn to program Arduino.
 Make your LED Clock using your kit components. 
 Play your own music the way you want to for family and friends.
 
+# PlaylistInstructions!
+Check out this playlist
+https://www.youtube.com/playlist?list=PL0gKhng7IH5ExFG0juDJ_dr5O2bnrafsZ
+
 # Installation
 
 0) Install the Arduino IDE (or add the extension if on a chrome book)
