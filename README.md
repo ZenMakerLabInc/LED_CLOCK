@@ -17,6 +17,7 @@ Play your own music the way you want to for family and friends.
 # Instructions
 You can work through building the clock with this video!
 https://youtu.be/LzjZOh6v2rk
+
 Activities and programming instruction to completing the clock are here:
 https://github.com/ZenMakerLabInc/LED_CLOCK/blob/master/LED%20Clock%20Activity%20Sheet%20-%20Revision%201.1%20(1).pdf
 
